@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 header{
-    position: fixed;
+    position: sticky;
     width: 100%;
     box-shadow: 0 0 50px 1px rgba(24, 24, 24, 0.3);
     top: 0;
@@ -21,24 +21,18 @@ header{
 
 header nav {
     display: flex;
-    height: 70px;
+    height: 8vh;
     background-color: rgb(241, 241, 241);
 }
 
-
-.container{
-    padding: 100px 20%;
-    font-size: 1.15em;
-}
-
-.img_div {
+header nav .img_div {
     width: fit-content;
     display: flex;
     align-items: center;
 }
 
-.img_div img {
-    width: max-content;
+header nav .img_div img {
+    width: auto;
     height:50px;
     margin-left: 20px;
 }
@@ -80,6 +74,11 @@ header nav ul li a:hover{
     color: white;
 }
 
+.container{
+    padding: 50px 20%;
+    font-size: 1.15em;
+}
+
 .gran_span{
     color: white;
     font-family: Impact, sans-serif;
@@ -89,7 +88,7 @@ header nav ul li a:hover{
 
 footer{
     background-color: #474c59;
-    height: 50px;
+    height: 6vh;
     color: white;
     display: flex;
     justify-content: center;

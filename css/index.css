@@ -10,12 +10,6 @@
     font-size: 200px;
 }
 
-.gran_span{
-    color: white;
-    font-family: Impact, sans-serif;
-    text-align: center;
-}
-
 .portada .gran_span {
     border: white 10px solid;
     padding: 30px;
@@ -130,9 +124,4 @@
     color: rgb(0, 0, 0);
 }
 
-.review{
-    position: relative;
-    float: right;
-    
-}
 
