@@ -1,0 +1,84 @@
+.main_img{
+    width: 100%;
+    height: 500px;
+    background-image: url("../imagenes/gongbao_4k.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main_img span{
+    font-size: 10vh;
+}
+
+.dificultad{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0;
+    font-size: 20px;
+    color:  gray;
+}
+
+.title{
+    border-bottom: 1px solid rgb(218, 218, 218);
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.desc{
+    text-align: justify;
+}
+
+section{
+    margin-bottom: 50px;
+}
+
+
+.grupo_ingrediente{
+    padding: 10px 20px;
+}
+
+.grupo_ingrediente span{
+    color: gray;
+    font-style: italic;
+}
+
+.pasos_container ol{
+    list-style: none;
+    counter-reset: paso_counter;
+    margin-top: 50px;
+}
+
+
+.pasos_container ol li::before {
+    counter-increment: paso_counter;
+    content: counter(paso_counter);
+    color: white;
+    position: absolute;
+    top: -15px;
+    background: grey;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 50px;
+}
+  
+.pasos_container ol li{
+    display: flex;
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.pasos_container ol li span{
+    padding-left: 70px;
+    text-align: justify;
+}
+
+.video_container{
+    display: flex;
+    justify-content: center;
+}

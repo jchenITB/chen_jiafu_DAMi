@@ -1,0 +1,138 @@
+.portada{
+    width: 100%;
+    height: 100vh;
+    background-image: url("../imagenes/portada.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 200px;
+}
+
+.gran_span{
+    color: white;
+    font-family: Impact, sans-serif;
+    text-align: center;
+}
+
+.portada .gran_span {
+    border: white 10px solid;
+    padding: 30px;
+}
+
+.destacados_titulo {
+    width: 100%;
+    height: 40vh;
+    background-image: url("../imagenes/palillo.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 100px;
+    margin-top: 50px;
+}
+
+.destacados_titulo .gran_span{
+    border-bottom: 10px solid white;
+    border-top: 10px solid white; 
+    padding: 10px 50px;
+}
+
+.destacados_container{
+    display: flex;
+    margin-top: 50px;
+    padding: 0 10%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 50px;
+}
+
+.destacado{
+    width: 33.3%;
+    padding-bottom: 50px;
+}
+
+
+.destacado_box{
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 3%;
+    padding: 15px 15px 0 15px;
+    margin: 0 20px;
+    height: 100%;
+    background: white;
+}
+
+.destacado_img {
+    position: relative;
+}
+
+.leer_mas{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 3%;
+    background-color: rgba(0, 0, 0, 0.425);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+}
+
+.leer_mas a {
+    text-decoration: none;
+    background-color: rgb(88, 88, 88);
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.leer_mas:hover{
+    opacity: 1;
+    transition: 0.2s;
+}
+.destacado_img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 3%;
+}
+
+.destacado_body{
+    text-align: justify;
+}
+
+.destacado_body_title{
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(204, 204, 204);
+    margin-bottom: 20px;
+}
+
+.destacado_body_title a{
+    text-decoration: none;
+    color: rgb(107, 107, 107);
+}
+
+.destacado_body_title a:hover{
+    color: black;
+    font-size: 1.2em;
+}
+
+
+.destacado_body_desc{
+    overflow-wrap: break-word;
+    color: rgb(0, 0, 0);
+}
+
+.review{
+    position: relative;
+    float: right;
+    
+}
+
